@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container{
+        width: 768px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1024px;
+}
+
+}
+
