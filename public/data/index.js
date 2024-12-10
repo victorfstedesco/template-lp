@@ -1,7 +1,7 @@
 async function loadData() {
     try {
         
-        const response = await fetch('modulos.json')
+        const response = await fetch('../public/data/modulos.json')
         const data = await response.json()
 
         const containerhtml = document.getElementById('teste')
@@ -20,4 +20,4 @@ async function loadData() {
 } 
 } 
  
-loadData()
+// loadData()
